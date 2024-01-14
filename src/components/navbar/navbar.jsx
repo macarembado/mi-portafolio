@@ -22,10 +22,10 @@ function MyNavbar() {
             </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="https://www.linkedin.com/" target="_blank" className="navLink">
+            <Nav.Link href="https://www.linkedin.com/in/mar%C3%ADa-macarena-rembado-99309b272/" target="_blank" className="navLink">
               <Linkedin className="icon" />
             </Nav.Link>
-            <Nav.Link href="https://github.com/" target="_blank" className="navLink">
+            <Nav.Link href="https://github.com/macarembado" target="_blank" className="navLink">
               <Github className="icon" />
             </Nav.Link>
           </Nav>

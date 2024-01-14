@@ -34,7 +34,27 @@
     align-items: center;
     justify-content: space-evenly;
   }
+
+  @media screen and (min-width: 1024px) {
+  .main-content {
+    margin-top: 300px;
+    margin-left: 200px; 
+  }
+
+  .round-image {
+    margin-left: 250px; 
+  }
+
+  .herramientas {
+    margin-top: 90px;
+    margin-right: 300px;
+  }
   
+  .tools-icons {
+   margin-right: 300px;
+  }
+    }
+
   
   @media (max-width: 768px) {
     .main-content {
@@ -77,3 +97,5 @@
       justify-content: space-evenly;
     }
   }
+
+  
