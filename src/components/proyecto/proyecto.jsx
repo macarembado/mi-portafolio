@@ -3,38 +3,27 @@ import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "./proyecto.css";
 import imagenProyecto1 from '../../assets/pag1.png';
+import jsimg from '../../assets/jsimg.jpeg'
+import reactimg from '../../assets/reactimg.jpeg'
 const lorem10 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
 
 function Proyectos() {
     const proyectos = [
-        {
-            title: 'Proyecto realizado en el curso de Desarrollo web',
-            descripcion: 'Primer pagina web creada por mi, con muchos errores que con la practica y aprendiendo pude descubrir. es una pagina de dulces hecha con html y css, es responsive',
-            image: imagenProyecto1,
-            pageLink: 'https://macarembado.github.io/tete-39385/index.html',
-            githubLink: 'https://github.com/macarembado/tete-39385',
-        },
-        {
+            {
             title: 'Proyecto realizado en Javascript',
-            descripcion: 'En este caso en la cursada de javascrip decidi hacer algo diferente a los demas y quise hacer un login',
-            image: imagenProyecto1,
-            pageLink: 'https://macarembado.github.io/tete-39385/index.html',
-            githubLink: 'https://github.com/macarembado/tete-39385',
+            descripcion: 'En este caso en la cursada de javascript decidí hacer algo diferente a los demas y elegí hacer un login con un json como "base de datos" y cuando te registras eso se suma ahí',
+            image: jsimg,
+            pageLink: 'https://macarembado.github.io/JavaScript/',
+            githubLink: 'https://github.com/macarembado/JavaScript',
         },
         {
             title: 'Proyecto Realizado en React ',
-            descripcion: 'Durante la cursada de React aprendimos a como hacer un Ecommerce, a manejar todo lo que el carrito conlleva, sumar y agregar productos, eliminar, pasar al pago.',
-            image: imagenProyecto1,
-            pageLink: 'https://macarembado.github.io/tete-39385/index.html',
-            githubLink: 'https://github.com/macarembado/tete-39385',
+            descripcion: 'Durante la cursada de React aprendimos a como hacer un Ecommerce, a tener divido por categorias los productos , a manejar todo lo que el carrito conlleva, sumar y agregar productos, eliminar, pasar al pago.',
+            image: reactimg,
+            pageLink: 'https://react-47245.vercel.app/',
+            githubLink: 'https://github.com/macarembado/React-47245',
         },
-        {
-            title: 'Proyecto Propio',
-            descripcion: lorem10,
-            image: imagenProyecto1,
-            pageLink: 'https://macarembado.github.io/tete-39385/index.html',
-            githubLink: 'https://github.com/macarembado/tete-39385',
-        },
+   
     ];
 
     return (
